@@ -1,0 +1,37 @@
+.floatingdiv{
+    justify-content: space-around;
+    display: flex;
+    background: white;
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0 28px 0 8px;
+    height: 4.5rem;
+
+}
+.floatingdiv>img{
+    transform: scale(0.4);
+}
+
+.floatingdiv>span{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+/* blur */
+
+.blur{
+    position: absolute;
+    left: 56%;
+    top: -18%;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+  
+   
+
+}
