@@ -2,7 +2,7 @@
     display: flex;
     height: 77vh;
     margin-top: 6rem;
-    border: 1px blue solid;
+   
 }
 .i-left{
     display: flex;
@@ -10,7 +10,7 @@
     flex: 1;
     flex-direction: column;
     gap: 2rem;
-    border: red solid 1px;
+
 }
 .i-name{
     display: flex;
@@ -54,7 +54,27 @@
 
 
 .i-right{
-    display: flex;
     flex: 1;
-    border: red solid 1px;
+    position: relative;
+
+    
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+
+}
+.i-right>:nth-child(2){
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+}
+.i-right>:nth-child(3){
+transform: scale(1.4);
+left: 28%;
 }
