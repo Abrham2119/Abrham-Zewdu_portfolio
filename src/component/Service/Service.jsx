@@ -58,9 +58,6 @@ const Service = () => {
 
       </div>
 
-
-
-
     </div>
   )
 }
