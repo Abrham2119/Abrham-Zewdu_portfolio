@@ -53,6 +53,10 @@ const Service = () => {
           />
       </div>
 
+      {/* service blur section  */}
+
+      
+
 
 
     </div>
