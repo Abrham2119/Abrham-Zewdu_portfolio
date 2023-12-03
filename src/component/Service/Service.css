@@ -38,4 +38,12 @@
 .cards>*{
     position: absolute;
 }
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(72px);
+    z-index: -9;   
 
+}
