@@ -4,6 +4,7 @@
     height: 90vh;   
     margin-top: 9rem;
     margin-bottom: 13rem;
+    position: relative;
    
 }
 .awsome{
@@ -43,7 +44,16 @@
     width: 22rem;
     height: 14rem;
     border-radius: 50%;
-    filter: blur(72px);
+    filter: blur(35px);
     z-index: -9;   
-
+}
+.s-blur1{
+    position: absolute;
+    left: 28rem;
+    top: 11rem;
+}
+.s-blur2{
+    position: absolute;
+    left: -15rem;
+    top: 10rem;
 }
