@@ -4,6 +4,7 @@
     height: 90vh;   
     margin-top: 9rem;
     margin-bottom: 13rem;
+   
 }
 .awsome{
     display: flex;
@@ -29,5 +30,12 @@
     width: 8rem;
     height: 2rem;
     margin-top: 1rem;
+}
+.cards{
+    position: relative;
+
+}
+.cards>*{
+    position: absolute;
 }
 

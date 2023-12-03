@@ -19,19 +19,3 @@
 }
 
 
-/* blur */
-
-.blur{
-    position: absolute;
-    left: 56%;
-    top: -18%;
-    width: 22rem;
-    height: 14rem;
-    border-radius: 50%;
-    background: #edd0ff;
-    filter: blur(72px);
-    z-index: -9;
-  
-   
-
-}

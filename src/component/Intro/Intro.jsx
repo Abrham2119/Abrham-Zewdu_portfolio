@@ -10,7 +10,6 @@ import vector2 from '../../img/Vector2.png'
 import boy from '../../img/boy.png'
 import thumbup from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
-import glassesimoji from '../../img/glassesimoji.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 
 
@@ -46,8 +45,21 @@ const Intro = () => {
                 <div style={{ top: '18rem', left: 'orem' }}>
                     <FloatingDiv image={thumbup} text1='Bast Design' text2='Award' />
                 </div>
+
+
+                
                 {/* blur effact */}
                 <div className="blur" style={{ borderColor: "rgb(238 210 255)" }}>
+
+                </div>
+
+                <div className="blur" style={{
+                    background:'#c1f5ff',
+                    top: '17rem',
+                    width: '21rem',
+                    height: '11rem',
+                    left: '-9rem'
+                }}>
 
                 </div>
             </div>
