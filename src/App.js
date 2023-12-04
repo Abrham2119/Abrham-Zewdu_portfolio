@@ -4,6 +4,7 @@ import './App.css';
 import Intro from "./component/Intro/Intro";
 import FloatingDiv from "./component/FloatingDiv/FloatingDiv";
 import Service from './component/Service/Service';  // Adjust the path accordingly
+import Experience from './component/Experience/Experience'
 
 function App() {
   return(
@@ -11,7 +12,7 @@ function App() {
       <Navbar />
       <Intro /> 
       <Service/>
-      
+      <Experience/>      
     </div>
   );
 }
