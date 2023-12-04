@@ -7,6 +7,8 @@ import Card from '../Card/Card'
 import AbrhamResume from './AbrhamResume.pdf'
 
 
+
+
 const Service = () => {
   return (
     <div className="service">
@@ -20,7 +22,6 @@ const Service = () => {
           <button className="button s-button">Download CV</button>
         </a>
       </div>
-
 
 
 
