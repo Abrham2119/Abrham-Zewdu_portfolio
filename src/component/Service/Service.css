@@ -39,14 +39,6 @@
 .cards>*{
     position: absolute;
 }
-.blur{
-    position: absolute;
-    width: 22rem;
-    height: 14rem;
-    border-radius: 50%;
-    filter: blur(35px);
-    z-index: -9;   
-}
 .s-blur1{
     position: absolute;
     left: 28rem;

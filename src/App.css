@@ -34,6 +34,14 @@
   border: 1px solid var(--orange);
   
 }
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  filter: blur(35px);
+  z-index: -9;   
+}
 
 
 
