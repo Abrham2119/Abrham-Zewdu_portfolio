@@ -27,6 +27,7 @@
 }
 .w-mainCircle{
     position: absolute;
+
 }
 
 .w-secCircle{
@@ -39,6 +40,7 @@
 .w-mainCircle>:nth-child(2){
    top: 6rem;
     left: -3rem;
+   
 }
 .w-mainCircle>:nth-child(3){
     left: 6rem;
