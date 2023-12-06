@@ -7,6 +7,8 @@ import Service from './component/Service/Service';  // Adjust the path according
 import Experience from './component/Experience/Experience'
 import Works from './component/Works/Works';
 import Portfolio from './component/Portfolio/Portfolio';
+import Testimonial from './component/Testimonial/Testimonial';
+
 
 function App() {
   return(
@@ -17,6 +19,7 @@ function App() {
       <Experience/>  
       <Works/>
       <Portfolio/>
+      <Testimonial/>
 
     </div>
   );
