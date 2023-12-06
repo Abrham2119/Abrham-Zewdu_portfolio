@@ -1,5 +1,6 @@
 import React from 'react'
 import './Testimonial.css'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 const Testimonial = () => {
   return (
@@ -9,13 +10,19 @@ const Testimonial = () => {
         <span>Exeptional Works</span>
         <span>From me...</span>
         <div className="blur s-blur1" style={{ background: "var(--purple)" }}>
+        </div>
+        <div className="blur s-blur2" style={{ background: '#c1f5ff' }}>
+        </div>
+      </div>
 
-      </div>
-      <div className="blur s-blur2" style={{ background: '#c1f5ff' }}>
+      {/* slider */}
 
-      </div>
-      </div>
-      
+      <Swiper>
+        <SwiperSlide>
+
+        </SwiperSlide>
+      </Swiper>
+
       
 
     </div>
