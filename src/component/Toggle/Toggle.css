@@ -3,10 +3,10 @@
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;
-    gap: 2px;
     position: relative;
     padding: 2px;
     cursor: pointer;
+    
 
 }
 .toggle>*{
@@ -14,3 +14,12 @@
     height: 1rem;
     color: var(--orange);
 }
+.toggle div{
+    background: var(--orange);
+    border-radius: 100%;
+    position: absolute;
+    width: 50%;
+    
+}
+
+

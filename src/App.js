@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import Navbar from "./component/Navbar/Navbar";
 import './App.css';
 import Intro from "./component/Intro/Intro";
@@ -11,10 +11,20 @@ import Testimonial from './component/Testimonial/Testimonial';
 import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
 
+export const darkModeContext = createContext()
 
 function App() {
+  const [darkMode,setDarkMode] = useState(false)
+  const changeMode = (mode)=>{
+    setDarkMode(mode)
+  }
+  const contextValue = {
+   changeMode
+  }
   return(
-    <div className="App" style={{background:'var(black)'}}>
+  <darkModeContext.Provider value={contextValue}>
+    <div className="App" style={{background:`${darkMode ?'black' : ''} `}}>
+    
       <Navbar />
       <Intro /> 
       <Service/>
@@ -24,8 +34,8 @@ function App() {
       <Testimonial/>
       <Contact/>
       <Footer/>
-      
     </div>
+    </darkModeContext.Provider>
   );
 }
 
