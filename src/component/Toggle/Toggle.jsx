@@ -15,7 +15,7 @@ const Toggle = () => {
       changeMode(toggleBtnPosition)
       localStorage.setItem('mode', toggleBtnPosition);
       }} className="toggle" >
-
+        
       <Moon />
       <Sun />
      
