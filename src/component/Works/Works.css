@@ -94,3 +94,13 @@
     top: 7rem;
 }
 
+
+@media screen and (max-width: 480px){
+    .works{
+        margin-bottom: -10rem;
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+}
+

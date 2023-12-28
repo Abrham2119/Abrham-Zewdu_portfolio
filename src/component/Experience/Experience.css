@@ -46,3 +46,17 @@
     color: var(--orange);
 
 }
+
+
+@media screen and (max-width: 480px){
+    .experience{
+        margin-top: 35rem;
+        margin-bottom: -2rem;
+        gap: 2rem;
+    }
+    .achievement{
+        transform: scale(0.9);
+        padding: 0 -3rem;
+    }
+    
+}

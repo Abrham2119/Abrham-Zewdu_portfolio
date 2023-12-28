@@ -1,7 +1,7 @@
 import React from 'react'
 import './Works.css'
 import Upwork from '../../img/Upwork.png'
-import Fiver from'../../img/fiverr.png'
+import Fiver from '../../img/fiverr.png'
 import Amazon from '../../img/amazon.png'
 import Shopify from '../../img/Shopify.png'
 import Facebook from '../../img/Facebook.png'
@@ -48,11 +48,11 @@ const Works = () => {
           </div>
           {/* background Circle */}
 
-         <div>
-         <div className="backCircle blueCircle"></div>
-         <div className="backCircle yellowCircle"></div>
-  
-         </div>
+          <div>
+            <div className="backCircle blueCircle"></div>
+            <div className="backCircle yellowCircle"></div>
+
+          </div>
 
 
         </div>

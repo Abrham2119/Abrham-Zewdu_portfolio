@@ -54,6 +54,21 @@
 
 @media screen and (max-width: 480px){
     .service{
-        margin-top: 90%;
+        margin-top: 23rem;
+        display: flex;
+        flex-direction: column;        
+        
     }
+    .cards{
+        display: flex;        
+        position: static; 
+             
+        margin-top: 17rem;    
+    }
+    .awsome{
+        margin-bottom: -12rem;
+    }
+
+    
+    
 }
