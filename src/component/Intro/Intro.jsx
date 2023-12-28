@@ -7,7 +7,7 @@ import Instagram from '../../img/instagram.png'
 
 import vector1 from '../../img/Vector1.png'
 import vector2 from '../../img/Vector2.png'
-import boy from '../../img/boy.png'
+import boy from '../../img/boy.jpg'
 import thumbup from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
@@ -35,9 +35,9 @@ const Intro = () => {
                 </div>
             </div>
             <div className="i-right">
-                <img src={vector1} alt="" />
-                <img src={vector2} alt="" />
-                <img src={boy} alt="" />
+                {/* <img src={vector1} alt="" />
+                <img src={vector2} alt="" /> */}
+                <img src={boy} alt=""  className='boyImage'/>
 
                 <div style={{ top: '-4%', left: '68%' }}>
                     <FloatingDiv image={crown} text1='Web' text2='Developer' />

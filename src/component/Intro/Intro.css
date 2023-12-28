@@ -63,7 +63,7 @@
     position: absolute;
     z-index: 1;
 }
-.i-right>:nth-child(1){
+/* .i-right>:nth-child(1){
     transform: scale(0.69);
     left: -15%;
     top: -9%;
@@ -73,10 +73,12 @@
     top: -4.6rem;
     transform: scale(0.67);
     left: -3rem;
-}
-.i-right>:nth-child(3){
-transform: scale(1.4);
-left: 28%;
+} */
+.i-right>:nth-child(1){
+transform: scale(0.3);
+left: -50%;
+top: -80%;
+border-radius: 20% 5% 20% 5%;
 }
 
 
