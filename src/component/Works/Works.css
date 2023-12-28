@@ -100,7 +100,13 @@
         margin-bottom: -10rem;
         display: flex;
         flex-direction: column;
-        position: static;
+        position: relative;
+    }
+    .w-right{
+        position: absolute;
+        transform: scale(0.9);
+        left: -6rem;
+        top: 22rem;
     }
 }
 

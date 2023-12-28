@@ -67,5 +67,10 @@
 
 
 @media screen and (max-width: 480px){
+ .t-wrapper{
+    padding: 0rem;
+    margin-top: -20rem;
+    
+ }
  
 }

@@ -60,3 +60,14 @@ opacity: 0;
 
     
 }
+
+@media screen and (max-width: 480px){
+    .portfolio{
+        margin-top: 22rem;
+        margin-bottom: 10rem;
+    }
+    .backCircle{
+        display: none;
+    }
+   
+}

@@ -61,8 +61,8 @@
     }
     .cards{
         display: flex;        
-        position: static; 
-             
+        position: static;  
+        align-items: center;           
         margin-top: 17rem;    
     }
     .awsome{
