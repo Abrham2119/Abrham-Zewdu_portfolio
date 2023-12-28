@@ -32,3 +32,21 @@
     gap: 2rem;
 }
 
+@media screen and (max-width: 480px){
+    .footer{
+        height: 55vh;
+        width: 40rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .f-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -0.5rem -0.5rem;
+        padding: 0 2rem 5rem 0rem;
+    }
+}
+

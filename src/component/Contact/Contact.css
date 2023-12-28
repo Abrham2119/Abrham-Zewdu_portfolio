@@ -4,6 +4,7 @@
     height: 80vh;
     margin-top: 4rem;
     flex-wrap: start;
+    position: relative;
 }
 .c-left{
     display: flex;
@@ -47,4 +48,13 @@ textarea{
 .c-blur2{
     top: 1rem;
     left: -45rem;
+}
+
+@media screen and (max-width: 480px){
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
