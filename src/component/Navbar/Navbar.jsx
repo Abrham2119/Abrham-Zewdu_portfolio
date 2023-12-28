@@ -23,13 +23,14 @@ const Navbar = () => {
 
 
                       <Link
-                      spy={true}
+                     
+                      
                           to='Navbar'
                           activeclass='activeclass'
                           smooth={true}
                           duration={500}
                           offset={-100}
-                      ><li>Home</li>
+                      ><li className="link-class">Home</li>
                   
                       </Link>
                       <Link
@@ -39,7 +40,7 @@ const Navbar = () => {
                           duration={500}
                           offset={-100}
                          
-                      ><li>Service</li>
+                      ><li className="link-class">Service</li>
                   
                       </Link>
                       <Link
@@ -48,7 +49,7 @@ const Navbar = () => {
                           smooth={true}
                           duration={500}
                           offset={-100}
-                      ><li>Experiance</li>
+                      ><li className="link-class">Experiance</li>
                   
                       </Link>
                       <Link
@@ -57,7 +58,7 @@ const Navbar = () => {
                           smooth={true}
                           duration={500}
                           offset={-100}
-                      >    <li>Portfolio</li>
+                      >    <li className="link-class">Portfolio</li>
                   
                       </Link>
                       <Link
@@ -66,7 +67,7 @@ const Navbar = () => {
                           smooth={true}
                           duration={500}
                           offset={-100}
-                      ><li>Testimonial</li>
+                      ><li className="link-class">Testimonial</li>
                   
                       </Link>
 
