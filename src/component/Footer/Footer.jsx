@@ -9,7 +9,7 @@ import Facebook from '@iconscout/react-unicons/icons/uil-facebook'
 const Footer = () => {
   return (
     <div className="footer" >
-      <img src={wave} alt="" style={{width:'100%'}}/>
+      <img className='fotter-image' src={wave} alt="" style={{width:'100%'}}/>
       <div className="f-content">
         <span>abrhamzewdu2119@gmail.com</span>
         <div>
