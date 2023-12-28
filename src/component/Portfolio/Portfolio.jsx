@@ -29,14 +29,14 @@ const Portfolio = () => {
     },
   ]
   return (
-    <div className="portfolio">
+    <div className="portfolio" id='Portfolio'>
       {/* heading for section */}
       <span>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
       <Swiper
-        spaceBetween={30}
+        spaceBetween={20}
         slidesPerView={2}
         grabCursor={true}
         className='portfolio-slider'

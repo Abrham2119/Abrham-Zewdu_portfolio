@@ -1,6 +1,5 @@
 .portfolio{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
@@ -22,7 +21,7 @@
 
 .portfolio-slider{
     margin-top: 3rem;
-    width: 100%;
+    width: 90%;
 
 }
 .slide{

@@ -28,10 +28,13 @@
 .n-list{
     flex: 2;
 }
+
+
 .n-list>ul{
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
+    cursor: pointer;
 }
 .n-list>ul>li:hover{
     cursor: pointer;
@@ -40,5 +43,6 @@
 .n-button{
     flex: 2;
   }
+
   
   

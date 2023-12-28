@@ -11,7 +11,7 @@ import AbrhamResume from './AbrhamResume.pdf'
 
 const Service = () => {
   return (
-    <div className="service">
+    <div className="service" id='Service'>
 
       {/* l-side */}
       <div className="awsome">
