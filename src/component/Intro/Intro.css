@@ -2,7 +2,6 @@
     display: flex;
     height: 77vh;
     margin-top: 6rem;
-
 }
 
 .i-left {
@@ -94,6 +93,7 @@
 
 /* blur */
 
+
 .blur {
     position: absolute;
     left: 56%;
@@ -139,6 +139,10 @@
         transform: scale(0.9);
 
     }
+    .i-name>:nth-child(2){
+        
+        display: none;
+    }    
 
 
 }
