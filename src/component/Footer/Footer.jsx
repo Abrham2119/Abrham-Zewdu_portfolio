@@ -6,7 +6,6 @@ import Linkdine from '@iconscout/react-unicons/icons/uil-linkedin'
 import Gmail from '@iconscout/react-unicons/icons/uil-envelope'
 
 
-
 const Footer = () => {
   return (
     <div className="footer" >

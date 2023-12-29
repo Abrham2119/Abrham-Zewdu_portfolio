@@ -38,15 +38,15 @@ const Service = () => {
       <div className="cards" style={{ left: '-4rem', top: '12rem' }}>
         <Card
           emoji={glasses}
-          heading={'Developer'}
-          detail={"Html, CSS ,JavaScript ,React"}
+          heading={'Programming Language'}
+          detail={"Html, CSS ,JavaScript ,Python,Java"}
         />
       </div>
       <div className="cards" style={{ left: '12rem', top: '19rem' }}>
         <Card
           emoji={Humble}
-          heading={"UX/UI"}
-          detail={"Html, CSS ,JavaScript ,React"}
+          heading={"Framework"}
+          detail={"React, Next.js, Node.js, Tailwind, Bootstrap"}
         />
       </div>
 

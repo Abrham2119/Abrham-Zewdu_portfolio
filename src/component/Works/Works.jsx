@@ -5,6 +5,8 @@ import Fiver from '../../img/fiverr.png'
 import Amazon from '../../img/amazon.png'
 import Shopify from '../../img/Shopify.png'
 import Facebook from '../../img/Facebook.png'
+import Youtube from'../../img/Youtube.png'
+import Linkdin from '../../img/Linkdine.jpeg'
 
 
 
@@ -14,11 +16,8 @@ const Works = () => {
       <div className="awsome">
         <span>Works of all goal</span>
         <span>Brands & Clients</span>
-        <span>Lorem Ipsum is simply dummy text of the
-          <br /> printing and  typesetting industry. <br />
-          Lorem Ipsum is simply dummy text of the   <br />
-          printing and  typesetting industry.
-        </span>
+        <span>I have worked with numerous brands and clients,including YouTube, <br />LinkedIn, Facebook, Upwork, and Shopify assisting them with <br /> various goals and tasks.
+        </span> 
 
 
         <button className="button s-button">Hire me</button>
@@ -38,13 +37,13 @@ const Works = () => {
             <img src={Fiver} alt="" srcset="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" srcset="" />
+            <img src={Linkdin} alt="" srcset="" />
           </div>
           <div className="w-secCircle">
             <img src={Shopify} alt="" srcset="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" srcset="" />
+            <img src={Youtube} alt="" srcset="" />
           </div>
           {/* background Circle */}
 
