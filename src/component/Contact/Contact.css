@@ -55,6 +55,7 @@ textarea{
     .contact-form{
         display: flex;
         flex-direction: column;
+        transform: scale(0.8);
     }
 
 }
