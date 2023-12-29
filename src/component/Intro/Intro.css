@@ -46,7 +46,7 @@
 .i-icons {
     margin-top: 3rem;
     display: flex;
-    gap: 0rem;
+    
 }
 
 .i-icons>* {
@@ -57,6 +57,10 @@
     cursor: pointer;
 }
 
+.intro-icon{
+    margin-left: -2rem;
+    
+}
 
 
 

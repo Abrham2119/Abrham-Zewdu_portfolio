@@ -17,7 +17,7 @@ const Service = () => {
       <div className="awsome">
         <span>My Awsome</span>
         <span>Service</span>
-        <span>Lorem Ipsum is simply dummy text of the <br /> printing and  typesetting industry. </span>
+        <span>"Expert in React framework for dynamic HTML and CSS manipulation. <br /> Efficiently add and remove elements with seamless transitions."</span>
         <a href={AbrhamResume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -32,7 +32,7 @@ const Service = () => {
         <Card
           emoji={heartemoji}
           heading={'Design'}
-          detail={"Figma, Skech ,Photoshop ,Adobe , Adobe xd"}
+          detail={"Figma,Adobe Photoshop ,Adobe Illustrator"}
         />
       </div>
       <div className="cards" style={{ left: '-4rem', top: '12rem' }}>

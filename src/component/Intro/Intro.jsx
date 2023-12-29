@@ -1,16 +1,16 @@
 import React from 'react'
 import './Intro.css'
 
-import Github from '../../img/github.png'
-import LinkedIn from '../../img/linkedin.png'
-import Instagram from '../../img/instagram.png'
-
 import vector1 from '../../img/Vector1.png'
 import vector2 from '../../img/Vector2.png'
 import boy from '../../img/boy.jpg'
 import thumbup from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
+import Envelope from '@iconscout/react-unicons/icons/uil-envelope'
+import GitHub from '@iconscout/react-unicons/icons/uil-github'
+import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
+
 
 
 
@@ -28,9 +28,9 @@ const Intro = () => {
                     Hire me
                 </button>
                 <div className="i-icons">
-                    <a href="https://github.com/Abrham2119/" target="_blank"><img src={Github} alt="" /></a>
-                    <a href=""><img src={LinkedIn} alt="" /></a>
-                    <a href=""><img src={Instagram} alt="" /></a>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=abrhamzewdu2119@gmail.com" target="_blank"><Envelope color='orange' size='7rem'  className='intro-icon'/></a>
+                    <a href="https://www.linkedin.com/in/abrham-zewdu-13a770232/" target="_blank"><Linkedin color='orange' size='7rem' className='intro-icon' /></a>
+                    <a href="https://github.com/Abrham2119" target="_blank" ><GitHub color='orange' size='7rem' className='intro-icon'/></a>
 
 
                 </div>
@@ -40,17 +40,17 @@ const Intro = () => {
                 <img src={vector2} alt="" /> */}
                 <img src={boy} alt=""  className='boyImage'/>
 
-                <div style={{ top: '-4%', left: '68%' }}>
+                <div style={{ top: '-4%', left: '77%' }}>
                     <FloatingDiv image={crown} text1='Web' text2='Developer' />
                 </div>
-                <div style={{ top: '18rem', left: 'orem' }}>
+                <div style={{ top: '17rem', left: 'orem' }}>
                     <FloatingDiv image={thumbup} text1='Bast Design' text2='Award' />
                 </div>
 
 
                 
                 {/* blur effact */}
-                <div className="blur" style={{ borderColor: "rgb(238 210 255)" }}>
+                <div className="blur" style={{ borderColor: "rgb(237 210 255)" }}>
 
                 </div>
 

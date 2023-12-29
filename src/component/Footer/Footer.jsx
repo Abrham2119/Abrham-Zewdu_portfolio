@@ -1,9 +1,10 @@
 import React from 'react'
 import './Footer.css'
 import wave from '../../img/wave.png'
-import Instagram from '@iconscout/react-unicons/icons/uil-instagram'
 import GitHub from '@iconscout/react-unicons/icons/uil-github'
-import Facebook from '@iconscout/react-unicons/icons/uil-facebook'
+import Linkdine from '@iconscout/react-unicons/icons/uil-linkedin'
+import Gmail from '@iconscout/react-unicons/icons/uil-envelope'
+
 
 
 const Footer = () => {
@@ -13,9 +14,12 @@ const Footer = () => {
       <div className="f-content">
         <span>abrhamzewdu2119@gmail.com</span>
         <div>
-          <Instagram color='white' size='3rem'/>
-          <GitHub color='white' size='3rem'/>
-          <Facebook color='white' size='3rem'/>
+          <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=abrhamzewdu2119@gmail.com" target="_blank"><Gmail color='white' size='3rem' className='f-icons' /></a>
+          <a href="https://www.linkedin.com/in/abrham-zewdu-13a760232/" target="_blank"><Linkdine color='white' size='3rem' className='f-icons' />
+          </a>
+          <a href="https://github.com/Abrham2119" ><GitHub color='white' size='3rem' className='f-icons' />
+          </a>
+
         </div>
       </div>
     </div>
