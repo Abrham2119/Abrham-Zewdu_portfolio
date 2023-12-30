@@ -12,11 +12,11 @@ import Button from '../common/Button'
 const Portfolio = () => {
   const slidebars = [
     {
-      link:"youtube.com",
+      link:"",
       img: HOC
     },
     {
-      link:"facebook.com",
+      link:"",
       img: MusicApp
     },
     {

@@ -7,6 +7,7 @@ import Service from '../Service/Service'
 import Experience from '../Experience/Experience'
 import Portfolio from '../Portfolio/Portfolio'
 import Testimonial from '../Testimonial/Testimonial'
+import Contact from '../Contact/Contact'
 
 const Navbar = () => {
   return (
@@ -67,7 +68,7 @@ const Navbar = () => {
                           smooth={true}
                           duration={500}
                           offset={-100}
-                      ><li className="link-class">Testimonial</li>
+                      >    <li className="link-class">Testimonial</li>
                   
                       </Link>
 
@@ -79,9 +80,12 @@ const Navbar = () => {
                     
                 </ul>
             </div>
-            <button className="button n-button">
+
+            <a href="#Contact"><button className="button n-button">
                 Contact
-            </button>
+            </button></a>
+            
+
         </div>
     </div>
   )
