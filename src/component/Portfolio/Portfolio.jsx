@@ -7,17 +7,19 @@ import Slidbar from '../../img/sidebar.png'
 import Ecommerce from '../../img/ecommerce.png'
 import 'swiper/css'
 import Button from '../common/Button'
+import Wisdom from '../../img/wisdom.png'
+import Sol from '../../img/sol.png'
 
 
 const Portfolio = () => {
   const slidebars = [
     {
-      link:"",
-      img: HOC
+      link:"https://wiseconnect.onrender.com/",
+      img: Wisdom
     },
     {
-      link:"",
-      img: MusicApp
+      link:"https://restaurantalpha.onrender.com/",
+      img: Sol
     },
     {
       link:"",
