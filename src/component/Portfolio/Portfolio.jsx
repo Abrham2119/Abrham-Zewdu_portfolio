@@ -9,6 +9,7 @@ import 'swiper/css'
 import Button from '../common/Button'
 import Wisdom from '../../img/wisdom.png'
 import Sol from '../../img/sol.png'
+import Nike from '../../img/Nike.png'
 
 
 const Portfolio = () => {
@@ -22,8 +23,8 @@ const Portfolio = () => {
       img: Sol
     },
     {
-      link:"",
-      img: Slidbar
+      link:"https://nike-dcnp.onrender.com/",
+      img: Nike
     },
     {
       link:"",
