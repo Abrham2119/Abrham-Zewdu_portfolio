@@ -9,7 +9,7 @@ import 'swiper/css'
 import Button from '../common/Button'
 import Wisdom from '../../img/wisdom.png'
 import Sol from '../../img/sol.png'
-import Nike from '../../img/Nike.png'
+import Nike from '../../img/nike.png'
 
 
 const Portfolio = () => {
