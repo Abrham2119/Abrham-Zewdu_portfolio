@@ -69,7 +69,7 @@ const Navbar = () => {
                           duration={500}
                           offset={-100}
                       >    <li className="link-class">Testimonial</li>
-                  
+                  you
                       </Link> */}
 
                     
