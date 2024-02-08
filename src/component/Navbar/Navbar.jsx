@@ -23,8 +23,7 @@ const Navbar = () => {
                 <ul style={{listStyleType: 'none'}}>
 
 
-                      <Link
-                     
+                      <Link                    
                       
                           to='Navbar'
                           activeclass='activeclass'
